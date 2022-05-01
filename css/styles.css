@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/* container */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* navbar style */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* title image */
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* middle section */
+#features{
+    position: relative;
+}
+.feature-box{
+    padding: 5%;
+}
+.middle-section{
+    line-height: 2
+}
+.icon{
+    font-size: 3rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.middle-heading{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.middle-para{
+    color: #8f8f8f;
+    margin: auto;
+}
+
+/* Testimonial Section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+.pricing-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
+
+
+/* footer */
+.social{
+    color: black;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.social-icon{
+    padding: 0 10px;
+}
+.github-link{
+    text-decoration: none;
+}
+.github-link:hover{
+    color: black;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}

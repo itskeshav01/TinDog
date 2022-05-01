@@ -1,0 +1,24 @@
+body{
+    background-color: #ff4c68;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.pickup-line{
+    margin: auto;
+    padding: 15% 15%;
+    font-family: 'Montserrat';
+}
+.pickup-heading{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.snap{
+    margin-top: 40px;
+}
+.snap:hover{
+    background-color: #FFFC00;
+}
